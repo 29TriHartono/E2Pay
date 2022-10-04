@@ -4,20 +4,24 @@ This project was Tailwindcss with [Create React App](https://github.com/facebook
 
 ## Cara menjalankan
 
-cara pertama:
+Cara pertama melalui Repository github
 
-- Clone Repository E2Pay github dengan perintah "git clone (link Repository)" atau jika sudah ada file rar bisa langsung di extract dikompoter.
-- buka terminal lalu cari folder E2Pay yang sudah anda download/clone
+- Clone Repository E2Pay github dengan perintah "git clone (link Repository)".
+- buka terminal lalu cari folder E2Pay yang sudah anda clone
 - kemudian setelah terbuka ketikan perintah "code ." untuk membuka Visual Studio Code
-- kemudian ketikan perintah "yarn add" untuk menginstall semua yang ada di package.json
+- kemudian ketikan perintah "yarn" untuk menginstall semua yang ada di package.json
 - setelah selesai silahkan run project dengan perintah "yarn start".
 
-cara kedua:
+Cara kedua melalui file rar:
 
-- Clone Repository E2Pay github dengan perintah "git clone (link Repository)" atau jika sudah ada file rar bisa langsung di extract dikompoter.
-- buka terminal lalu cari folder E2Pay yang sudah anda download/clone
+- extract file e2pay dikompoter anda.
+- buka terminal lalu cari folder E2Pay yang sudah anda extract
 - kemudian setelah terbuka ketikan perintah "code ." untuk membuka Visual Studio Code
-- hapus node_modulus dan yarn.lock, jika sudah selesai ketikan perintah "yarn add"
+- setelah selesai silahkan run project dengan perintah "yarn start".
+
+jika ada error menjalankan filenya:
+
+- hapus node_modulus dan yarn.lock, jika sudah selesai ketikan perintah "yarn"
 - setelah selesai silahkan run project dengan perintah "yarn start".
 
 ## Available Scripts
