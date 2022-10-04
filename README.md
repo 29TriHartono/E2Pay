@@ -1,22 +1,22 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was Tailwindcss with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Cara menjalankan
 
 cara pertama:
 
-- Clone Repository E2Pay github dengan perintah "git clone (lalu link Repository)" atau jika sudah ada file rar bisa langsung di extract dikompoter.
-- buka file E2Pay lalu klik kanan dan pilih "Git Bash here"
-- setelah terbuka ketikan perintah "code ." untuk membuka Visual Studio Code
-- kemudian ketikan perintah "yarn add" untuk meinstall semua yang ada di package.json
+- Clone Repository E2Pay github dengan perintah "git clone (link Repository)" atau jika sudah ada file rar bisa langsung di extract dikompoter.
+- buka terminal lalu cari folder E2Pay yang sudah anda download/clone
+- kemudian setelah terbuka ketikan perintah "code ." untuk membuka Visual Studio Code
+- kemudian ketikan perintah "yarn add" untuk menginstall semua yang ada di package.json
 - setelah selesai silahkan run project dengan perintah "yarn start".
 
 cara kedua:
 
-- Clone Repository E2Pay github dengan perintah "git clone (lalu link Repository)" atau jika sudah ada file rar bisa langsung di extract dikompoter.
-- buka file E2Pay lalu klik kanan dan pilih "Git Bash here"
-- setelah terbuka ketikan perintah "code ." untuk membuka Visual Studio Code
+- Clone Repository E2Pay github dengan perintah "git clone (link Repository)" atau jika sudah ada file rar bisa langsung di extract dikompoter.
+- buka terminal lalu cari folder E2Pay yang sudah anda download/clone
+- kemudian setelah terbuka ketikan perintah "code ." untuk membuka Visual Studio Code
 - hapus node_modulus dan yarn.lock, jika sudah selesai ketikan perintah "yarn add"
 - setelah selesai silahkan run project dengan perintah "yarn start".
 
