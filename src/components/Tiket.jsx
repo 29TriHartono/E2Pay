@@ -13,7 +13,7 @@ const Tiket = () => {
         <div className="bg-white rounded-3xl overflow-hidden flex flex-col md:flex-row h-4/5 lg:h-full w-full">
           {/* left Content */}
           <main className="bg-leftBackground md:w-1/2  flex flex-col items-center  gap-4 p-6 md:p-10">
-            <div className="w-1/3">
+            <div className="w-1/2">
               <img src={LogoTiket} alt="Logo Tiket.com" />
             </div>
             <h3>Tiket.com / PT. Global Tiket Network</h3>
@@ -21,7 +21,7 @@ const Tiket = () => {
             <h1 className="text-textBlue font-bold">Rp. 2,000,000.000</h1>
             <h3 className="text-slate-500">Invoice code: 01234567890AM</h3>
             <div className="w-full bg-white py-4 rounded-3xl overflow-hidden mt-2">
-              <div className="flex items-center justify-between cursor-pointer px-10  " onClick={() => setDropdown(!dropdown)}>
+              <div className="flex items-center justify-between cursor-pointer px-6 md:px-10  " onClick={() => setDropdown(!dropdown)}>
                 <h3 className="font-semibold">Detail</h3>
                 <div className="flex items-center gap-2 ">
                   <h3>4 items</h3>
@@ -29,7 +29,7 @@ const Tiket = () => {
                 </div>
               </div>
               <hr className={dropdown ? 'block' : 'hidden'} />
-              <div className="px-10">
+              <div className="px-6 md:px-10">
                 <div className={dropdown ? 'flex flex-col gap-4 py-6' : 'hidden '}>
                   <div className="flex flex-col gap-2">
                     <div className="flex items-center justify-between">
@@ -68,7 +68,7 @@ const Tiket = () => {
             <div className="w-full flex  justify-center gap-6 font-semibold">
               <a href="" className="flex flex-col items-center text-greenColor gap-2">
                 <h2 className="">SAVED CARD</h2>
-                <FontAwesomeIcon icon={faCaretUp} className="transition animate-bounce duration-500" />
+                <FontAwesomeIcon icon={faCaretUp} className="transition animate-bounce duration-300" />
               </a>
               <a href="">
                 <h2 className="text-slate-300">NEW CARD</h2>
